@@ -51,7 +51,7 @@ img{
     text-align: center;
     margin: 0 auto;
     justify-content: space-between;
-    width: 9.25rem;
+    width: 10rem;
     margin-top: -0.5rem;
     letter-spacing: 0.01rem;
     font-weight: 700;
@@ -73,7 +73,7 @@ img{
 }
 .Stats h2{
     font-weight: 700;
-    font-size: 0.8125rem;
+    font-size: 1rem;
 }
 .Stats p{
     margin-top: -1rem;
