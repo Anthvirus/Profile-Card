@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+
+:root{
+ --Dark-cyan: hsl(185, 75%, 39%);
+ --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+ --Dark-grayish-blue: hsl(227, 10%, 46%);
+ --Dark-gray: hsl(0, 0%, 59%)
+}
+body{
+    background: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg), var(--Dark-cyan);
+    background-position:top left, bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: -7rem, 35rem;
+    background-position-y: -12.5rem, 20rem;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+.profile-card{
+    text-align: center;
+    margin: auto;
+    height: 24rem;
+    font-family: 'Kumbh Sans', sans-serif;
+    width: 24rem;
+    border: 1px solid inherit;
+    border-radius: 1.75rem;
+    background-color: white;
+}
+.bg-box{
+    background-image: url(bg-pattern-card.svg);
+    height: 9rem;
+    border-top-right-radius: 1.75rem;
+    border-top-left-radius: 1.75rem;
+}
+img{
+    height: 6.25rem;
+    width: 6.25rem;
+    border: 5px solid white;
+    border-radius: 4.5rem;
+    margin-top: -3.625rem;
+}
+.bio-box{
+    height: 9rem;
+}
+.bio-data{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 8.5rem;
+    margin-top: -0.5rem;
+    letter-spacing: 0.01rem;
+    font-weight: 700;
+    font-size: 0.75rem;
+}
+.age{
+    color: var(--Dark-grayish-blue);
+    font-weight: 400;
+}
+.location{
+    margin-top: -0.5rem;
+    letter-spacing: 0.1rem;
+    color: var(--Dark-grayish-blue);
+}
+.Stats{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid var(--Dark-grayish-blue);
+}
+.Stats h2{
+    font-weight: 700;
+}
+.Stats p{
+    margin-top: -1rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.125rem;
+    color: var(--Dark-grayish-blue);
+}
+@media (max-width: 775px) {
+    
+    body{
+        background-position-x: -12.5rem, 12.5rem;
+        background-position-y: -7.5rem, 27.5rem;
+    }
+    .profile-card{
+        margin: auto 0.5rem;
+    }
+}
