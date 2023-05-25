@@ -8,12 +8,10 @@
  --Dark-gray: hsl(0, 0%, 59%)
 }
 body{
-    background: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg), var(--Dark-cyan);
-    background-position:top left, bottom right;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position-x: -7rem, 35rem;
-    background-position-y: -12.5rem, 20rem;
+    background: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg); 
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+    background-repeat: no-repeat, no-repeat;
+    background-color: hsl(185deg, 75%, 39%);
     margin: 0;
     box-sizing: border-box;
     display: flex;
@@ -74,6 +72,7 @@ img{
 }
 .Stats h2{
     font-weight: 700;
+    font-size: 0.8125rem;
 }
 .Stats p{
     margin-top: -1rem;
