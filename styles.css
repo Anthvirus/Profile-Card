@@ -81,13 +81,3 @@ img{
     letter-spacing: 0.125rem;
     color: var(--Dark-grayish-blue);
 }
-@media (max-width: 775px) {
-    
-    body{
-        background-position-x: -12.5rem, 12.5rem;
-        background-position-y: -7.5rem, 27.5rem;
-    }
-    .profile-card{
-        margin: auto 0.5rem;
-    }
-}
